@@ -1,0 +1,1251 @@
+[
+  {
+    "id": "espresso",
+    "name": "Espresso",
+    "aliases": ["espresso", "single espresso"],
+
+    "category": "coffee",
+
+    "temperature": "hot",
+
+    "contains": {
+      "coffee": true,
+      "milk": false,
+      "tea": false,
+      "chocolate": false,
+      "caramel": false,
+      "vanilla": false,
+      "fruit": false,
+      "ice": false
+    },
+
+    "caffeine": 10,
+    "sweetness": 1,
+    "bitterness": 9,
+    "acidity": 6,
+    "creaminess": 1,
+    "body": 9,
+    "refreshing": 1,
+
+    "texture": "thin",
+
+    "visualScore": 5,
+    "instagramScore": 3,
+
+    "calories": 1,
+
+    "priceLevel": 1,
+
+    "recommendedFor": [
+      "strong_coffee",
+      "high_energy",
+      "quick_drink"
+    ],
+
+    "notRecommendedFor": [
+      "kids",
+      "low_caffeine",
+      "sweet_drinks"
+    ],
+
+    "ingredients": [
+      "espresso"
+    ],
+
+    "description": "A concentrated coffee with intense aroma, rich body, and strong bitterness."
+  },
+
+  {
+    "id": "iced_espresso",
+    "name": "Iced Espresso",
+    "aliases": ["iced espresso"],
+
+    "category": "coffee",
+
+    "temperature": "cold",
+
+    "contains": {
+      "coffee": true,
+      "milk": false,
+      "tea": false,
+      "chocolate": false,
+      "caramel": false,
+      "vanilla": false,
+      "fruit": false,
+      "ice": true
+    },
+
+    "caffeine": 10,
+    "sweetness": 1,
+    "bitterness": 9,
+    "acidity": 6,
+    "creaminess": 1,
+    "body": 8,
+    "refreshing": 9,
+
+    "texture": "thin",
+
+    "visualScore": 6,
+    "instagramScore": 5,
+
+    "calories": 1,
+
+    "priceLevel": 1,
+
+    "recommendedFor": [
+      "summer",
+      "strong_coffee",
+      "high_energy"
+    ],
+
+    "notRecommendedFor": [
+      "kids",
+      "low_caffeine"
+    ],
+
+    "ingredients": [
+      "espresso",
+      "ice"
+    ],
+
+    "description": "A refreshing iced version of espresso with the same bold coffee flavor."
+  },
+
+  {
+    "id": "americano",
+    "name": "Americano",
+    "aliases": ["americano"],
+
+    "category": "coffee",
+
+    "temperature": "hot",
+
+    "contains": {
+      "coffee": true,
+      "milk": false,
+      "tea": false,
+      "chocolate": false,
+      "caramel": false,
+      "vanilla": false,
+      "fruit": false,
+      "ice": false
+    },
+
+    "caffeine": 9,
+    "sweetness": 1,
+    "bitterness": 7,
+    "acidity": 5,
+    "creaminess": 1,
+    "body": 6,
+    "refreshing": 2,
+
+    "texture": "light",
+
+    "visualScore": 4,
+    "instagramScore": 2,
+
+    "calories": 2,
+
+    "priceLevel": 1,
+
+    "recommendedFor": [
+      "black_coffee",
+      "daily_coffee"
+    ],
+
+    "notRecommendedFor": [
+      "sweet_drinks"
+    ],
+
+    "ingredients": [
+      "espresso",
+      "hot water"
+    ],
+
+    "description": "Espresso diluted with hot water for a smoother black coffee."
+  },
+
+  {
+    "id": "iced_americano",
+    "name": "Iced Americano",
+    "aliases": ["iced americano"],
+
+    "category": "coffee",
+
+    "temperature": "cold",
+
+    "contains": {
+      "coffee": true,
+      "milk": false,
+      "tea": false,
+      "chocolate": false,
+      "caramel": false,
+      "vanilla": false,
+      "fruit": false,
+      "ice": true
+    },
+
+    "caffeine": 9,
+    "sweetness": 1,
+    "bitterness": 7,
+    "acidity": 5,
+    "creaminess": 1,
+    "body": 5,
+    "refreshing": 10,
+
+    "texture": "light",
+
+    "visualScore": 6,
+    "instagramScore": 6,
+
+    "calories": 2,
+
+    "priceLevel": 1,
+
+    "recommendedFor": [
+      "summer",
+      "black_coffee",
+      "diet"
+    ],
+
+    "notRecommendedFor": [
+      "sweet_drinks"
+    ],
+
+    "ingredients": [
+      "espresso",
+      "cold water",
+      "ice"
+    ],
+
+    "description": "A cold black coffee that is refreshing, low in calories, and rich in caffeine."
+  },
+
+  {
+    "id": "latte",
+    "name": "Latte",
+    "aliases": ["latte", "caffe latte"],
+
+    "category": "coffee",
+
+    "temperature": "hot",
+
+    "contains": {
+      "coffee": true,
+      "milk": true,
+      "tea": false,
+      "chocolate": false,
+      "caramel": false,
+      "vanilla": false,
+      "fruit": false,
+      "ice": false
+    },
+
+    "caffeine": 6,
+    "sweetness": 2,
+    "bitterness": 3,
+    "acidity": 2,
+    "creaminess": 6,
+    "body": 6,
+    "refreshing": 2,
+
+    "texture": "smooth",
+
+    "visualScore": 8,
+    "instagramScore": 7,
+
+    "calories": 6,
+
+    "priceLevel": 2,
+
+    "recommendedFor": [
+      "beginners",
+      "milk_lovers",
+      "mild_coffee"
+    ],
+
+    "notRecommendedFor": [
+      "lactose_intolerance"
+    ],
+
+    "ingredients": [
+      "espresso",
+      "steamed milk",
+      "milk foam"
+    ],
+
+    "description": "A creamy espresso drink with steamed milk and a mild coffee taste."
+  },
+
+  {
+    "id": "iced_latte",
+    "name": "Iced Latte",
+    "aliases": ["iced latte"],
+
+    "category": "coffee",
+
+    "temperature": "cold",
+
+    "contains": {
+      "coffee": true,
+      "milk": true,
+      "tea": false,
+      "chocolate": false,
+      "caramel": false,
+      "vanilla": false,
+      "fruit": false,
+      "ice": true
+    },
+
+    "caffeine": 6,
+    "sweetness": 2,
+    "bitterness": 3,
+    "acidity": 2,
+    "creaminess": 4,
+    "body": 5,
+    "refreshing": 8,
+
+    "texture": "smooth",
+
+    "visualScore": 9,
+    "instagramScore": 8,
+
+    "calories": 6,
+
+    "priceLevel": 2,
+
+    "recommendedFor": [
+      "summer",
+      "beginners",
+      "milk_lovers"
+    ],
+
+    "notRecommendedFor": [
+      "lactose_intolerance"
+    ],
+
+    "ingredients": [
+      "espresso",
+      "cold milk",
+      "ice"
+    ],
+
+    "description": "A refreshing combination of espresso, cold milk, and ice."
+  },
+
+  {
+    "id": "cappuccino",
+    "name": "Cappuccino",
+    "aliases": ["cappuccino"],
+
+    "category": "coffee",
+
+    "temperature": "hot",
+
+    "contains": {
+      "coffee": true,
+      "milk": true,
+      "tea": false,
+      "chocolate": false,
+      "caramel": false,
+      "vanilla": false,
+      "fruit": false,
+      "ice": false
+    },
+
+    "caffeine": 6,
+    "sweetness": 1,
+    "bitterness": 5,
+    "acidity": 3,
+    "creaminess": 8,
+    "body": 7,
+    "refreshing": 2,
+
+    "texture": "foamy",
+
+    "visualScore": 9,
+    "instagramScore": 8,
+
+    "calories": 5,
+
+    "priceLevel": 2,
+
+    "recommendedFor": [
+      "classic_coffee",
+      "foam_lovers"
+    ],
+
+    "notRecommendedFor": [
+      "lactose_intolerance"
+    ],
+
+    "ingredients": [
+      "espresso",
+      "steamed milk",
+      "milk foam"
+    ],
+
+    "description": "A balanced coffee with equal harmony between espresso, steamed milk, and foam."
+  },
+
+  {
+    "id": "cortado",
+    "name": "Cortado",
+    "aliases": ["cortado"],
+
+    "category": "coffee",
+
+    "temperature": "hot",
+
+    "contains": {
+      "coffee": true,
+      "milk": true,
+      "tea": false,
+      "chocolate": false,
+      "caramel": false,
+      "vanilla": false,
+      "fruit": false,
+      "ice": false
+    },
+
+    "caffeine": 7,
+    "sweetness": 1,
+    "bitterness": 6,
+    "acidity": 4,
+    "creaminess": 5,
+    "body": 8,
+    "refreshing": 2,
+
+    "texture": "smooth",
+
+    "visualScore": 7,
+    "instagramScore": 6,
+
+    "calories": 4,
+
+    "priceLevel": 2,
+
+    "recommendedFor": [
+      "balanced_coffee",
+      "experienced_coffee_drinkers"
+    ],
+
+    "notRecommendedFor": [
+      "sweet_drinks"
+    ],
+
+    "ingredients": [
+      "espresso",
+      "steamed milk"
+    ],
+
+    "description": "A balanced coffee with equal parts espresso and steamed milk, preserving a rich coffee flavor."
+  },
+
+  {
+    "id": "matcha_latte",
+    "name": "Matcha Latte",
+    "aliases": ["matcha latte"],
+
+    "category": "tea",
+
+    "temperature": "hot",
+
+    "contains": {
+      "coffee": false,
+      "milk": true,
+      "tea": true,
+      "chocolate": false,
+      "caramel": false,
+      "vanilla": false,
+      "fruit": false,
+      "ice": false
+    },
+
+    "caffeine": 5,
+    "sweetness": 2,
+    "bitterness": 3,
+    "acidity": 1,
+    "creaminess": 8,
+    "body": 6,
+    "refreshing": 3,
+
+    "texture": "smooth",
+
+    "visualScore": 9,
+    "instagramScore": 9,
+
+    "calories": 6,
+
+    "priceLevel": 3,
+
+    "recommendedFor": [
+      "matcha_lovers",
+      "moderate_energy",
+      "creamy_drinks"
+    ],
+
+    "notRecommendedFor": [
+      "people_who_dislike_matcha"
+    ],
+
+    "ingredients": [
+      "matcha",
+      "steamed milk"
+    ],
+
+    "description": "A creamy drink made with premium matcha and steamed milk."
+  },
+
+  {
+    "id": "iced_matcha_latte",
+    "name": "Iced Matcha Latte",
+    "aliases": ["iced matcha latte"],
+
+    "category": "tea",
+
+    "temperature": "cold",
+
+    "contains": {
+      "coffee": false,
+      "milk": true,
+      "tea": true,
+      "chocolate": false,
+      "caramel": false,
+      "vanilla": false,
+      "fruit": false,
+      "ice": true
+    },
+
+    "caffeine": 5,
+    "sweetness": 2,
+    "bitterness": 3,
+    "acidity": 1,
+    "creaminess": 8,
+    "body": 5,
+    "refreshing": 9,
+
+    "texture": "smooth",
+
+    "visualScore": 10,
+    "instagramScore": 10,
+
+    "calories": 6,
+
+    "priceLevel": 3,
+
+    "recommendedFor": [
+      "summer",
+      "matcha_lovers",
+      "refreshing_drinks"
+    ],
+
+    "notRecommendedFor": [
+      "people_who_dislike_matcha"
+    ],
+
+    "ingredients": [
+      "matcha",
+      "cold milk",
+      "ice"
+    ],
+
+    "description": "A refreshing iced matcha drink with creamy milk."
+  },
+
+  {
+    "id": "caramel_macchiato",
+    "name": "Caramel Macchiato",
+    "aliases": ["caramel macchiato"],
+
+    "category": "coffee",
+
+    "temperature": "hot",
+
+    "contains": {
+      "coffee": true,
+      "milk": true,
+      "tea": false,
+      "chocolate": false,
+      "caramel": true,
+      "vanilla": true,
+      "fruit": false,
+      "ice": false
+    },
+
+    "caffeine": 6,
+    "sweetness": 7,
+    "bitterness": 3,
+    "acidity": 2,
+    "creaminess": 8,
+    "body": 7,
+    "refreshing": 2,
+
+    "texture": "smooth",
+
+    "visualScore": 9,
+    "instagramScore": 9,
+
+    "calories": 8,
+
+    "priceLevel": 3,
+
+    "recommendedFor": [
+      "sweet_coffee",
+      "caramel_lovers",
+      "beginners"
+    ],
+
+    "notRecommendedFor": [
+      "low_sugar_diet"
+    ],
+
+    "ingredients": [
+      "espresso",
+      "steamed milk",
+      "vanilla syrup",
+      "caramel sauce"
+    ],
+
+    "description": "A sweet espresso drink layered with vanilla milk and caramel sauce."
+  },
+
+  {
+    "id": "iced_caramel_macchiato",
+    "name": "Iced Caramel Macchiato",
+    "aliases": ["iced caramel macchiato"],
+
+    "category": "coffee",
+
+    "temperature": "cold",
+
+    "contains": {
+      "coffee": true,
+      "milk": true,
+      "tea": false,
+      "chocolate": false,
+      "caramel": true,
+      "vanilla": true,
+      "fruit": false,
+      "ice": true
+    },
+
+    "caffeine": 6,
+    "sweetness": 7,
+    "bitterness": 3,
+    "acidity": 2,
+    "creaminess": 8,
+    "body": 6,
+    "refreshing": 8,
+
+    "texture": "smooth",
+
+    "visualScore": 10,
+    "instagramScore": 10,
+
+    "calories": 8,
+
+    "priceLevel": 3,
+
+    "recommendedFor": [
+      "summer",
+      "sweet_coffee",
+      "caramel_lovers"
+    ],
+
+    "notRecommendedFor": [
+      "low_sugar_diet"
+    ],
+
+    "ingredients": [
+      "espresso",
+      "cold milk",
+      "vanilla syrup",
+      "caramel sauce",
+      "ice"
+    ],
+
+    "description": "A refreshing iced coffee with vanilla milk and rich caramel flavor."
+  },
+
+  {
+    "id": "tea",
+    "name": "Tea",
+    "aliases": ["tea", "black tea"],
+
+    "category": "tea",
+
+    "temperature": "hot",
+
+    "contains": {
+      "coffee": false,
+      "milk": false,
+      "tea": true,
+      "chocolate": false,
+      "caramel": false,
+      "vanilla": false,
+      "fruit": false,
+      "ice": false
+    },
+
+    "caffeine": 3,
+    "sweetness": 1,
+    "bitterness": 2,
+    "acidity": 1,
+    "creaminess": 1,
+    "body": 4,
+    "refreshing": 4,
+
+    "texture": "light",
+
+    "visualScore": 4,
+    "instagramScore": 2,
+
+    "calories": 1,
+
+    "priceLevel": 1,
+
+    "recommendedFor": [
+      "relaxation",
+      "daily_drink"
+    ],
+
+    "notRecommendedFor": [],
+
+    "ingredients": [
+      "black tea",
+      "hot water"
+    ],
+
+    "description": "A classic hot black tea with a light body and mild bitterness."
+  },
+
+  {
+    "id": "iced_tea",
+    "name": "Iced Tea",
+    "aliases": ["iced tea"],
+
+    "category": "tea",
+
+    "temperature": "cold",
+
+    "contains": {
+      "coffee": false,
+      "milk": false,
+      "tea": true,
+      "chocolate": false,
+      "caramel": false,
+      "vanilla": false,
+      "fruit": true,
+      "ice": true
+    },
+
+    "caffeine": 3,
+    "sweetness": 5,
+    "bitterness": 1,
+    "acidity": 3,
+    "creaminess": 1,
+    "body": 3,
+    "refreshing": 10,
+
+    "texture": "light",
+
+    "visualScore": 8,
+    "instagramScore": 8,
+
+    "calories": 3,
+
+    "priceLevel": 2,
+
+    "recommendedFor": [
+      "summer",
+      "refreshing_drinks"
+    ],
+
+    "notRecommendedFor": [],
+
+    "ingredients": [
+      "black tea",
+      "ice",
+      "lemon",
+      "sugar syrup"
+    ],
+
+    "description": "A refreshing cold tea with a light citrus flavor and mild sweetness."
+  },
+
+  {
+    "id": "lemonade",
+    "name": "Lemonade",
+    "aliases": ["lemonade"],
+
+    "category": "cold_drink",
+
+    "temperature": "cold",
+
+    "contains": {
+      "coffee": false,
+      "milk": false,
+      "tea": false,
+      "chocolate": false,
+      "caramel": false,
+      "vanilla": false,
+      "fruit": true,
+      "ice": true
+    },
+
+    "caffeine": 1,
+    "sweetness": 6,
+    "bitterness": 1,
+    "acidity": 9,
+    "creaminess": 1,
+    "body": 3,
+    "refreshing": 10,
+
+    "texture": "light",
+
+    "visualScore": 8,
+    "instagramScore": 8,
+
+    "calories": 3,
+
+    "priceLevel": 2,
+
+    "recommendedFor": [
+      "summer",
+      "hot_weather",
+      "refreshing_drinks"
+    ],
+
+    "notRecommendedFor": [
+      "people_sensitive_to_sour_flavors"
+    ],
+
+    "ingredients": [
+      "lemon juice",
+      "water",
+      "sugar syrup",
+      "ice"
+    ],
+
+    "description": "A refreshing citrus drink with a sweet and tangy flavor."
+  },
+
+  {
+    "id": "mojito",
+    "name": "Mojito",
+    "aliases": [
+      "mojito",
+      "virgin mojito"
+    ],
+
+    "category": "mocktail",
+
+    "temperature": "cold",
+
+    "contains": {
+      "coffee": false,
+      "milk": false,
+      "tea": false,
+      "chocolate": false,
+      "caramel": false,
+      "vanilla": false,
+      "fruit": true,
+      "ice": true
+    },
+
+    "caffeine": 1,
+    "sweetness": 5,
+    "bitterness": 1,
+    "acidity": 7,
+    "creaminess": 1,
+    "body": 3,
+    "refreshing": 10,
+
+    "texture": "light",
+
+    "visualScore": 9,
+    "instagramScore": 9,
+
+    "calories": 3,
+
+    "priceLevel": 3,
+
+    "recommendedFor": [
+      "summer",
+      "refreshing_drinks",
+      "mint_lovers"
+    ],
+
+    "notRecommendedFor": [],
+
+    "ingredients": [
+      "lime",
+      "fresh mint",
+      "sugar syrup",
+      "sparkling water",
+      "ice"
+    ],
+
+    "description": "A refreshing mint and lime mocktail with sparkling water."
+  },
+
+  {
+    "id": "blue_hawaii",
+    "name": "Blue Hawaii",
+    "aliases": [
+      "blue hawaii",
+      "blue hawaiian"
+    ],
+
+    "category": "mocktail",
+
+    "temperature": "cold",
+
+    "contains": {
+      "coffee": false,
+      "milk": false,
+      "tea": false,
+      "chocolate": false,
+      "caramel": false,
+      "vanilla": false,
+      "fruit": true,
+      "ice": true
+    },
+
+    "caffeine": 1,
+    "sweetness": 8,
+    "bitterness": 1,
+    "acidity": 4,
+    "creaminess": 1,
+    "body": 5,
+    "refreshing": 9,
+
+    "texture": "smooth",
+
+    "visualScore": 10,
+    "instagramScore": 10,
+
+    "calories": 5,
+
+    "priceLevel": 3,
+
+    "recommendedFor": [
+      "summer",
+      "sweet_drinks",
+      "instagram_photos",
+      "tropical_flavors"
+    ],
+
+    "notRecommendedFor": [
+      "people_who_prefer_low_sugar_drinks"
+    ],
+
+    "ingredients": [
+      "blue curaçao syrup",
+      "pineapple juice",
+      "lemon juice",
+      "simple syrup",
+      "ice"
+    ],
+
+    "description": "A vibrant tropical mocktail with a sweet fruity flavor and a striking blue color."
+  },
+
+  {
+    "id": "nutella_shake",
+    "name": "Nutella Shake",
+    "aliases": ["nutella shake"],
+
+    "category": "shake",
+
+    "temperature": "cold",
+
+    "contains": {
+      "coffee": false,
+      "milk": true,
+      "tea": false,
+      "chocolate": true,
+      "caramel": false,
+      "vanilla": false,
+      "fruit": false,
+      "ice": true
+    },
+
+    "caffeine": 1,
+    "sweetness": 9,
+    "bitterness": 1,
+    "acidity": 1,
+    "creaminess": 10,
+    "body": 9,
+    "refreshing": 7,
+
+    "texture": "thick",
+
+    "visualScore": 9,
+    "instagramScore": 9,
+
+    "calories": 10,
+
+    "priceLevel": 4,
+
+    "recommendedFor": [
+      "chocolate_lovers",
+      "dessert",
+      "sweet_drinks"
+    ],
+
+    "notRecommendedFor": [
+      "low_sugar_diet",
+      "low_calorie_diet",
+      "lactose_intolerance"
+    ],
+
+    "ingredients": [
+      "milk",
+      "ice cream",
+      "nutella",
+      "ice"
+    ],
+
+    "description": "A rich and creamy shake made with Nutella, milk, and ice cream."
+  },
+
+  {
+    "id": "vanilla_shake",
+    "name": "Vanilla Shake",
+    "aliases": ["vanilla shake"],
+
+    "category": "shake",
+
+    "temperature": "cold",
+
+    "contains": {
+      "coffee": false,
+      "milk": true,
+      "tea": false,
+      "chocolate": false,
+      "caramel": false,
+      "vanilla": true,
+      "fruit": false,
+      "ice": true
+    },
+
+    "caffeine": 1,
+    "sweetness": 8,
+    "bitterness": 1,
+    "acidity": 1,
+    "creaminess": 10,
+    "body": 8,
+    "refreshing": 7,
+
+    "texture": "thick",
+
+    "visualScore": 8,
+    "instagramScore": 8,
+
+    "calories": 9,
+
+    "priceLevel": 4,
+
+    "recommendedFor": [
+      "dessert",
+      "vanilla_lovers",
+      "sweet_drinks"
+    ],
+
+    "notRecommendedFor": [
+      "low_sugar_diet",
+      "low_calorie_diet",
+      "lactose_intolerance"
+    ],
+
+    "ingredients": [
+      "milk",
+      "vanilla ice cream",
+      "vanilla syrup",
+      "ice"
+    ],
+
+    "description": "A smooth and creamy vanilla-flavored milkshake."
+  },
+
+  {
+    "id": "strawberry_shake",
+    "name": "Strawberry Shake",
+    "aliases": ["strawberry shake"],
+
+    "category": "shake",
+
+    "temperature": "cold",
+
+    "contains": {
+      "coffee": false,
+      "milk": true,
+      "tea": false,
+      "chocolate": false,
+      "caramel": false,
+      "vanilla": false,
+      "fruit": true,
+      "ice": true
+    },
+
+    "caffeine": 1,
+    "sweetness": 8,
+    "bitterness": 1,
+    "acidity": 3,
+    "creaminess": 10,
+    "body": 8,
+    "refreshing": 8,
+
+    "texture": "thick",
+
+    "visualScore": 10,
+    "instagramScore": 10,
+
+    "calories": 8,
+
+    "priceLevel": 4,
+
+    "recommendedFor": [
+      "fruit_lovers",
+      "dessert",
+      "summer"
+    ],
+
+    "notRecommendedFor": [
+      "low_sugar_diet",
+      "lactose_intolerance"
+    ],
+
+    "ingredients": [
+      "milk",
+      "strawberry",
+      "strawberry ice cream",
+      "ice"
+    ],
+
+    "description": "A creamy strawberry milkshake with a sweet fruity flavor."
+  },
+
+  {
+    "id": "chocolate_shake",
+    "name": "Chocolate Shake",
+    "aliases": ["chocolate shake"],
+
+    "category": "shake",
+
+    "temperature": "cold",
+
+    "contains": {
+      "coffee": false,
+      "milk": true,
+      "tea": false,
+      "chocolate": true,
+      "caramel": false,
+      "vanilla": false,
+      "fruit": false,
+      "ice": true
+    },
+
+    "caffeine": 1,
+    "sweetness": 8,
+    "bitterness": 2,
+    "acidity": 1,
+    "creaminess": 10,
+    "body": 9,
+    "refreshing": 7,
+
+    "texture": "thick",
+
+    "visualScore": 9,
+    "instagramScore": 9,
+
+    "calories": 9,
+
+    "priceLevel": 4,
+
+    "recommendedFor": [
+      "chocolate_lovers",
+      "dessert",
+      "sweet_drinks"
+    ],
+
+    "notRecommendedFor": [
+      "low_sugar_diet",
+      "low_calorie_diet",
+      "lactose_intolerance"
+    ],
+
+    "ingredients": [
+      "milk",
+      "chocolate ice cream",
+      "chocolate syrup",
+      "ice"
+    ],
+
+    "description": "A rich chocolate milkshake with a creamy texture and intense chocolate flavor."
+  },
+
+  {
+    "id": "cookie_shake",
+    "name": "Cookie Shake",
+    "aliases": [
+      "cookie shake",
+      "cookies and cream shake"
+    ],
+
+    "category": "shake",
+
+    "temperature": "cold",
+
+    "contains": {
+      "coffee": false,
+      "milk": true,
+      "tea": false,
+      "chocolate": true,
+      "caramel": false,
+      "vanilla": true,
+      "fruit": false,
+      "ice": true
+    },
+
+    "caffeine": 1,
+    "sweetness": 8,
+    "bitterness": 1,
+    "acidity": 1,
+    "creaminess": 10,
+    "body": 9,
+    "refreshing": 7,
+
+    "texture": "thick",
+
+    "visualScore": 9,
+    "instagramScore": 10,
+
+    "calories": 10,
+
+    "priceLevel": 4,
+
+    "recommendedFor": [
+      "dessert",
+      "cookie_lovers",
+      "sweet_drinks"
+    ],
+
+    "notRecommendedFor": [
+      "low_sugar_diet",
+      "low_calorie_diet",
+      "lactose_intolerance"
+    ],
+
+    "ingredients": [
+      "milk",
+      "vanilla ice cream",
+      "chocolate cookies",
+      "ice"
+    ],
+
+    "description": "A thick and creamy cookies-and-cream milkshake with crunchy cookie pieces."
+  }
+]
