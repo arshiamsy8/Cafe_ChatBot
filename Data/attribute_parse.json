@@ -1,0 +1,71 @@
+{
+
+    "sweetness": [
+        "sweet",
+        "sweeter",
+        "sweetest",
+        "sugary"
+    ],
+
+
+    "bitterness": [
+        "bitter",
+        "bitterness",
+        "roasty",
+        "roasted"
+    ],
+
+
+    "acidity": [
+        "acidic",
+        "acidity",
+        "sour",
+        "citrusy",
+        "citrus",
+        "lemony"
+    ],
+
+
+    "creaminess": [
+        "creamy",
+        "creamier",
+        "foamy"
+    ],
+
+
+    "refreshing": [
+        "refreshing",
+        "fresh",
+        "summer",
+        "thirsty",
+        "hydrating"
+    ],
+
+    "beautifuliness": [
+        "beautiful",
+        "pretty",
+        "gorgeous",
+        "stunning",
+        "attractive",
+        "lovely",
+        "elegant",
+        "aesthetic",
+        "appealing",
+        "charming",
+        "gorgeous",
+        "exquisite",
+        "goodlooking"
+    ],
+
+    "ugliness": [
+        "ugly",
+        "unattractive",
+        "unappealing",
+        "hideous",
+        "unsightly",
+        "unpleasant",
+        "unpresentable",
+        "unappealing"
+    ]
+
+}
