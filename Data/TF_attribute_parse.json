@@ -1,0 +1,44 @@
+{
+
+    "caffeine": [
+        "caffeine",
+        "caffeinated",
+        "coffee",
+        "strong",
+        "energetic",
+        "wake up",
+        "awake"
+    ],
+    
+
+    "decaf": [
+        "decaf",
+        "decaffeinated"
+    ],
+
+
+    "milk": [
+        "milky",
+        "dairy"
+    ],
+
+
+    "chocolate": [
+        "chocolaty",
+        "chocolatey",
+        "cocoa"
+    ],
+
+
+    "syrup": [
+        "syrupy",
+        "syrup-based"
+    ],
+
+
+    "ice": [
+        "iced",
+        "icy"
+    ]
+
+}
